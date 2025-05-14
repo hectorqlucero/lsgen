@@ -41,7 +41,7 @@ A utility that helps build a full stack web app
  * dashboards src/sk/handlers/
  * reports src/sk/handlers/reports
 
- ***## **Note:** grids, dashboards and reports will have:
+ ***## grids, dashboards and reports will have:
    * controller.clj
    * model.clj
    * view.clj

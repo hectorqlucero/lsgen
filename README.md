@@ -27,7 +27,7 @@ A utility that helps build a full stack web app
 10. Go to `http:localhost:3000` on your favorite browser
 
 ## Leiningen aliases to scaffold code, populate tables or run migrations
-1. *****lein migrate** will create migrations defined on **resource/migrations** (ragtime migrations)
+1. *****lein migrate** will create migrations definded on resources/migrations (ragtime migrations)
 2. **lein rollback** will rollback a migration
 3. **lein database** will create users or whatever other records needed from **sk/models/cdb.clj**
 4. **lein grid table-name** will scaffold a full crud grid on an existing table-name

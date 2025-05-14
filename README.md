@@ -32,6 +32,15 @@ A utility that helps build a full stack web app
  3. **lein database** will create users or whatever other records needed from **sk/models/cdb.clj**
  4. **lein grid table-name** will scaffold a full crud grid on an existing table-name
  5. **lein dashboard table-name** will scaffold a dashboard on an existing table-name
- 6. **lein report table-name** will scaffold a report on an existing table-name
+ 6. **lein report report-name** will scaffold a report
 
  ## bootstrap5 navbar defined in **src/sk/layout.clj**
+
+ ## File Locations
+ * grids src/sk/handlers/admin/
+ * dashboards src/sk/handlers/
+ * reports src/sk/handlers/reports
+ * *****Note:** grids, dashboards and reports will have:
+   * controller.clj
+   * model.clj
+   * view.clj

@@ -24,7 +24,7 @@ A utility that helps build a full stack web app
       * Creates a user user@example.com password **user** in the table **users**
       * Creates an admin user admin@example.com password **admin** in the table **users**
       * Creates a system user system@example.com password **system** in the table **users**
-10.Go to `http:localhost:3000` on your favorite browser
+10. Go to `http:localhost:3000` on your favorite browser to run your web app
 
 ## Leiningen aliases to scaffold code, populate tables or run migrations
 1. **lein migrate** will create migrations definded on resources/migrations (ragtime migrations)

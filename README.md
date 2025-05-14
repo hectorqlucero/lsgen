@@ -11,8 +11,8 @@ A utility that helps build a full stack web app
 1. Clone this repository in your computer
 2. Create a database in your favorite mysql client.
 3. Configure `project.clj`
-4. Rename *******`resources/private/config_example` to `config.clj`
-5. Configure **`project.clj*` Replace **Change me** with your own configuration
+4. Rename `resources/private/config_example` to `config.clj`
+5. Configure `project.clj` Replace **Change me** with your own configuration
 6. Configure all **xxxxx** with your own configuration
 7. On your vscode status click **REPL** to  **Start your project with a REPL and connect (a.k.a. jack-in)**
 8. Open a new terminal: 

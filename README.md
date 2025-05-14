@@ -10,7 +10,7 @@ A utility that helps build a full stack web app
 ## How to use the utility
 1. Clone this repository in your computer
 2. Create a database in your favorite mysql client.
-3. Configure **project.clj**
+3. Configure *****project.clj**
 4. Rename **resources/private/config_example** to **config.clj**
 5. Configure **project.clj**. Replace **Change me** with your own configuration
 6. Configure all **xxxxx** with your own configuration
@@ -24,10 +24,10 @@ A utility that helps build a full stack web app
       * Creates a user user@example.com password **user** in the table **users**
       * Creates an admin user admin@example.com password **admin** in the table **users**
       * Creates a system user system@example.com password **system** in the table **users**
-10. Go to `http:localhost:3000` on your favorite browser
+10.Go to `http:localhost:3000` on your favorite browser
 
 ## Leiningen aliases to scaffold code, populate tables or run migrations
-1. *****lein migrate** will create migrations definded on resources/migrations (ragtime migrations)
+1. ********lein migrate** will create migrations definded on resources/migrations (ragtime migrations)
 2. **lein rollback** will rollback a migration
 3. **lein database** will create users or whatever other records needed from **sk/models/cdb.clj**
 4. **lein grid table-name** will scaffold a full crud grid on an existing table-name

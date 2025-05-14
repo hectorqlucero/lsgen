@@ -27,21 +27,21 @@ A utility that helps build a full stack web app
 10. Go to `http:localhost:3000` on your favorite browser
 
 ## Leiningen aliases to scaffold code, populate tables or run migrations
- 1. **lein migrate** will create migrations defined on **resource/migrations** (ragtime migrations)
- 2. **lein rollback** will rollback a migration
- 3. **lein database** will create users or whatever other records needed from **sk/models/cdb.clj**
- 4. **lein grid table-name** will scaffold a full crud grid on an existing table-name
- 5. **lein dashboard table-name** will scaffold a dashboard on an existing table-name
- 6. **lein report report-name** will scaffold a report
+1. **lein migrate** will create migrations defined on **resource/migrations** (ragtime migrations)
+2. **lein rollback** will rollback a migration
+3. **lein database** will create users or whatever other records needed from **sk/models/cdb.clj**
+4. **lein grid table-name** will scaffold a full crud grid on an existing table-name
+5. **lein dashboard table-name** will scaffold a dashboard on an existing table-name
+6. **lein report report-name** will scaffold a report
 
 ## Menu is a bootstrap5 navbar
- 1. located in: **src/sk/layout.clj**
+1. located in: **src/sk/layout.clj**
 
- ## File Locations
-  1. grids src/sk/handlers/admin/
-  2.* dashboards src/sk/handlers/
-  3.* reports src/sk/handlers/reports
-  4.* grids, dashboards and reports contain three files:
-      * controller.clj
-      * model.clj
-      * view.clj
+## File Locations
+1. grids src/sk/handlers/admin/
+2.* dashboards src/sk/handlers/
+3.* reports src/sk/handlers/reports
+4.* grids, dashboards and reports contain three files:
+   * controller.clj
+   * model.clj
+   * view.clj

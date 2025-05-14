@@ -45,3 +45,5 @@ A utility that helps build a full stack web app
    * controller.clj
    * model.clj
    * view.clj
+5. **private routes** src/sk/routes/proutes.clj
+6. **public routes** src/sk/routes/routes.clj

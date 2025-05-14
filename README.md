@@ -34,14 +34,14 @@ A utility that helps build a full stack web app
  5. **lein dashboard table-name** will scaffold a dashboard on an existing table-name
  6. **lein report report-name** will scaffold a report
 
- ## bootstrap5 navbar defined in **src/sk/layout.clj**
+## Menu is a bootstrap5 navbar
+ located in: **src/sk/layout.clj**
 
  ## File Locations
  * grids src/sk/handlers/admin/
  * dashboards src/sk/handlers/
  * reports src/sk/handlers/reports
-
- ***grids, dashboards and reports will have:
+ * ***grids, dashboards and reports will have:
   * controller.clj
   * model.clj
   * view.clj

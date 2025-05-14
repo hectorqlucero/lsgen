@@ -35,13 +35,13 @@ A utility that helps build a full stack web app
  6. **lein report report-name** will scaffold a report
 
 ## Menu is a bootstrap5 navbar
- located in: **src/sk/layout.clj**
+ 1. located in: **src/sk/layout.clj**
 
  ## File Locations
- * grids src/sk/handlers/admin/
- * dashboards src/sk/handlers/
- * reports src/sk/handlers/reports
- * ***grids, dashboards and reports will have:
-  * controller.clj
-  * model.clj
-  * view.clj
+  1. grids src/sk/handlers/admin/
+  2.* dashboards src/sk/handlers/
+  3.* reports src/sk/handlers/reports
+  4.* grids, dashboards and reports contain three files:
+      * controller.clj
+      * model.clj
+      * view.clj
